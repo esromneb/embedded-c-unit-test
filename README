@@ -1,6 +1,6 @@
 This project was copied and modified from http://cu.danfis.cz/  
   
-#### Instructions
+# Instructions
 Each test must be declared with the CU_TEST(name) macro.  The name parameter
 should describe what the test covers.
   
