@@ -61,7 +61,7 @@ void cu_run_test(const char *name, void (*test_pointer)(void), unsigned reset)
 {
   static int tests_run = 0;
   
-  /* PDQ Board does not reset memory after running test, so we reset tests_run with a flag */
+  /* Embedded Board does not reset memory after running test, so we reset tests_run with a flag */
   if( reset ){
     tests_run = 0;
     return;
